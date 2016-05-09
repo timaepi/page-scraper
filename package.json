@@ -1,0 +1,23 @@
+{
+  "name": "page-scraper",
+  "version": "1.0.0",
+  "description": "scrape a specified page, then email the specified user if the page changes",
+  "main": "page-scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/timaepi/page-scraper.git"
+  },
+  "author": "Tim & Melissa Trayhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timaepi/page-scraper/issues"
+  },
+  "homepage": "https://github.com/timaepi/page-scraper#readme",
+  "dependencies": {
+    "emailer": "0.0.0",
+    "request": "^2.72.0"
+  }
+}
